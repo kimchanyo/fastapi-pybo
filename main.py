@@ -9,7 +9,7 @@ from domain.user import user_router
 app = FastAPI()
 
 origins = [
-    "http://test.api.hometokki.com",
+    "https://test.api.hometokki.com",
 ]
 
 app.add_middleware(
